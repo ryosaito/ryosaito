@@ -1,19 +1,19 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Title:</strong>
+  <strong>内容</strong>
   <%= @event.title %>
 </p>
 
 <p>
-  <strong>Start:</strong>
+  <strong>何時から</strong>
   <%= @event.start %>
 </p>
 
 <p>
-  <strong>End:</strong>
+  <strong>何時まで</strong>
   <%= @event.end %>
 </p>
 
-<%= link_to 'Edit', edit_event_path(@event) %> |
-<%= link_to 'Back', events_path %>
+<%= link_to '編集する', edit_event_path(@event) %> |
+<%= link_to '戻る', events_path %>
